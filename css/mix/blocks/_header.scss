@@ -1,0 +1,65 @@
+header {
+    background-color: $morado;
+    padding-top: 26px;
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        margin: 0px 32px 40px 32px;
+
+        #slack {
+            height: 1.0em;
+            font-size: 28px;
+            font-weight: bold;
+            display: flex;
+            align-content: center;
+            gap: 2px;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+    .hamburgesa {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3px;
+
+        div {
+            border-radius: 8px;
+            width: 16px;
+            height: 2px;
+            margin: 0px 0;
+            background-color: white;
+        }
+    }
+    .header_img {
+        width: 100%;
+    }
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    align-items: center;
+    width: 94vw;
+    margin: 0 auto 40px;
+
+    h1 {
+        font-size: 40px;
+
+        span {
+            color: $gold;
+        }
+    }
+    p {
+        font-size: 17px;
+        line-height: 26px;
+        margin-bottom: 40px;
+    }
+}

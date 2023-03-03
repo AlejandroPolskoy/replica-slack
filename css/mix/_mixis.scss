@@ -1,0 +1,5 @@
+@mixin createList ($direction: row) {
+    display: flex;
+    flex-direction: $direction;
+    list-style-type: none;
+}

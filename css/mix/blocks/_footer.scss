@@ -1,0 +1,50 @@
+footer {
+    width: 100vw;
+    div {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+    .footer_list1 {
+        @include createList(column);
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        border-bottom: 1px solid #d5d5d5;
+        padding: 40px 0 34px;
+
+        & li {
+            display: flex;
+            justify-content: space-between;
+        }
+        a {
+            color: black;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+    }
+    .footer_list2 {
+        @include createList(column);
+        padding: 20px 0 20px;
+        gap: 20px;
+
+        a {
+            font-size: 14px;
+            font-weight: bold;
+            color: black;
+        }
+    }
+    .footer_socials {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer_end {
+        p {
+            color: black;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 30px 0;
+        }
+    }
+}

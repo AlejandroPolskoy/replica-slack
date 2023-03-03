@@ -1,0 +1,48 @@
+/* Color palet */
+$morado: #400d40;
+$google: #4285f4;
+$gold: #ecb22e;
+$link: #1264a3;
+$fondo: #f4ede4;
+
+@import "./reset";
+@import "./mix/mixis";
+@import "./mix/blocks/header";
+@import "./mix/blocks/content";
+@import "./mix/blocks/footer";
+
+.button {
+    width: 96%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 4px 0;
+
+    &-morado {
+        color: white;
+        background-color: $morado;
+        border: 1px solid white;
+        border-radius: 4px;
+    }
+
+    &-blanco {
+        color: $morado;
+        background-color: white;
+        border: 1px solid $morado;
+        border-radius: 4px;
+    }
+
+    &-google {
+        color: white;
+        background-color: $google;
+        position: relative;
+
+        img {
+            position: absolute;
+            left: 6px;
+        }
+    }
+}
